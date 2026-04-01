@@ -1,0 +1,9 @@
+spring:
+  profiles:
+    active: local # 기본적으로 로컬 설정을 쓰도록 지정
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+
+# 공통 설정 (포트 등)
+server:
+  port: 8080
